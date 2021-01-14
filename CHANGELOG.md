@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.1
+
+* Update repository, add `html_root_url`, update dev-dependencies.
+
 ## 2.0.0
 
 * Update `rand_core` to `0.5`.  Because traits from `rand_core` are part of the
