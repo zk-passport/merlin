@@ -22,7 +22,8 @@ exclude = [".travis.yml", ".gitignore"]
 features = ["nightly"]
 
 [dependencies]
-keccak = { version = "0.1.0", default-features = false }
+# keccak = { version = "0.1.0", default-features = false }
+tiny-keccak = { git = "https://github.com/sp1-patches/tiny-keccak", branch = "patch-v2.0.2", features = ["sha3", "keccak"], default-features = false }
 byteorder = { version = "1.2.4", default-features = false }
 zeroize = { version = "1", default-features = false, features = ["zeroize_derive"] }
 rand_core = { version = "0.6", default-features = false }
